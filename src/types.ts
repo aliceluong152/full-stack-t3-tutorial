@@ -13,3 +13,6 @@ export const todoInput = z
   })
   .min(1)
   .max(50);
+//This setup helps ensure that the data being handled conforms
+// to expected types and formats, which improves robustness
+// and maintainability in your application.
